@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#d2effd,#d2effd,#f49e79);
+}
+.landing-page{
+    background-image: url(/images/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.collapse{  
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    /* border: 1px solid black; */
+    background-color:  rgba(245, 239, 239,0.7);
+    padding-top: 20px; 
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.nav-item a{
+    position: relative;
+    color: rgb(0, 0, 0);  
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.nav-item a:before{
+    content: '';
+    position: absolute;
+    background-color: chocolate;
+    color: #ee7340;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.nav-item a:hover:before{
+    width: 100%;
+    color: chocolate;
+}
+.content-page{
+    width: 1000px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    /* background-color: rgba(99, 98, 98, 0.5); */
+}
+.content-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    color: #ee7340;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+.content-content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+   
+    padding: 10px;
+}
+.content-btn{
+    max-width: 500px;
+
+}
+.destination-list{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.destination-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+}
+.destination-names{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+.des-image1{
+    background-image: url(/images/USA.jpg);
+    background-size: cover;
+}
+.des-image2{
+    background-image: url(/images/Europe.jpg);
+    background-size: cover;
+}.des-image3{
+    background-image: url(/images/Asia.jpg);
+    background-size: cover;
+}
+.desti{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.destination-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.destination-content-head{
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.destination-items{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-page{
+    display: flex;
+    margin: auto;
+    /* border: 1px solid white; */
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.serve{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+}
+.service-container {
+    width: 95%;
+    height: 80vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-image {
+    width: 350px;
+    padding: 20px;
+    height: 200px;
+    background-size: cover;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+    justify-content: space-around;
+    background-color: #f19c77;
+    text-align: justify;
+    font-size: 13px;
+}
+.service-footer{
+    display: flex;
+    width: 70%;
+    text-align: center;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-image1{
+    background-image: url(/images/desti-expert.jpg);
+}
+.card-image2{
+    background-image: url(/images/person-iten.jpg);
+}
+.card-image3{
+    background-image: url(/images/accomo.jpg);
+}
+.card-image4{
+    background-image: url(/images/travel-assist.jpg);
+}
+
+
+.pack{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    margin: 50px 0 0 0;
+
+}
+.packages-container{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+}
+.package-box-con{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     /* border: 1px solid black; */
+}
+.package-box{
+    width: 350px;
+    height: 600px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.package-box .pack-content-head, .pack-content-value{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+.package-box .pack-content{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+}
+.pack-content-head{
+    text-align: center;
+}
+
+.about-page{
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+}
+.about-container{
+    width: 1500px;
+    height: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-statements{
+    width: 1300px;
+    height: 600px;
+    display: flex;
+}
+.akoa-container{
+    width: 60%;
+    /* border: 1px solid rgb(247, 247, 247); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.akoa-pic{
+    background-image: url(/images/akoapic.jpeg);
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 45%;
+}
+.akoa-content{
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.akoa-name{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+.akoa-description{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px
+}
+.history-container{
+    width: 60%;
+    padding: 10px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.history-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+}
+.history-statements {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.about-info-address{
+    font-family: 'Poppins', sans-serif;
+}
+.information{
+    width: 400px;
+    height: 240px;
+    border: 1px solid red;
+    display: flex;
+}
+.contact-us{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    color: white;
+
+}
+.contact-container{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width: 400px;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.contact-head{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+.partner-container{
+    display: flex;
+    align-items: center;
+}
+.partner1{
+    width: 100px;
+    height: 40px;
+    background-image: url(/images/pal.png);
+    background-size: cover;
+}
+.partner2{
+    width: 100px;
+    height: 40px;
+    background-image: url(/images/coins.png);
+    background-size: cover;
+}
+.partner3{
+    width: 100px;
+    height: 40px;
+    background-image: url(/images/emirates.png);
+    background-size: cover;
+}
+.partner4{
+    width: 100px;
+    height: 40px;
+    background-image: url(/images/jetstar.png);
+    background-size: cover;
+}
+
