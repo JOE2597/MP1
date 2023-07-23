@@ -9,7 +9,7 @@ body{
     background: linear-gradient(#d2effd,#d2effd,#f49e79);
 }
 .landing-page{
-    background-image: url(/images/bg-img2.jpg);
+    background-image: url(images/bg-img2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,14 +110,14 @@ body{
     color: white;
 }
 .des-image1{
-    background-image: url(/images/USA.jpg);
+    background-image: url(images/USA.jpg);
     background-size: cover;
 }
 .des-image2{
-    background-image: url(/images/Europe.jpg);
+    background-image: url(images/Europe.jpg);
     background-size: cover;
 }.des-image3{
-    background-image: url(/images/Asia.jpg);
+    background-image: url(images/Asia.jpg);
     background-size: cover;
 }
 .desti{
@@ -195,16 +195,16 @@ body{
     text-align: center;
 }
 .card-image1{
-    background-image: url(/images/desti-expert.jpg);
+    background-image: url(images/desti-expert.jpg);
 }
 .card-image2{
-    background-image: url(/images/person-iten.jpg);
+    background-image: url(images/person-iten.jpg);
 }
 .card-image3{
-    background-image: url(/images/accomo.jpg);
+    background-image: url(images/accomo.jpg);
 }
 .card-image4{
-    background-image: url(/images/travel-assist.jpg);
+    background-image: url(images/travel-assist.jpg);
 }
 
 
@@ -290,7 +290,7 @@ body{
     justify-content: space-evenly;
 }
 .akoa-pic{
-    background-image: url(/images/akoapic.jpeg);
+    background-image: url(images/akoapic.jpeg);
     width: 200px;
     height: 300px;
     background-size: cover;
@@ -379,25 +379,25 @@ body{
 .partner1{
     width: 100px;
     height: 40px;
-    background-image: url(/images/pal.png);
+    background-image: url(images/pal.png);
     background-size: cover;
 }
 .partner2{
     width: 100px;
     height: 40px;
-    background-image: url(/images/coins.png);
+    background-image: url(images/coins.png);
     background-size: cover;
 }
 .partner3{
     width: 100px;
     height: 40px;
-    background-image: url(/images/emirates.png);
+    background-image: url(images/emirates.png);
     background-size: cover;
 }
 .partner4{
     width: 100px;
     height: 40px;
-    background-image: url(/images/jetstar.png);
+    background-image: url(images/jetstar.png);
     background-size: cover;
 }
 
