@@ -11,7 +11,7 @@
 </head>
 <body> 
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
                  <img src="images/brand_logo.png" alt="Bootstrap" width="110" height="70">
             </a>
@@ -43,23 +43,23 @@
         </div>
     </nav>
     <section class="landing-page" id="landing-page"> 
-        <div class="content-page" id="home">
-            <h1 class="content-title">Experience the World</h1>
+        <div class="content-page container-lg" id="home">
+            <h1 class="content-title d-lg-flex">Experience the World</h1>
             <div class="content-content">Our dedicated team is here to make your travel dreams a reality. We specialize in creating customized itineraries tailored to your unique preferences and interests, ensuring that every aspect of your trip is perfectly planned.</div>
         </div>
         <div class="content-btn">
-            <a href="#destinationPage"><button type="button" class="btn btn-success btn-lg">Explore More!</button></a>
+            <a href="#destinationPage"><button type="button" class="btn btn-success btn-lg">Start Exploring here!</button></a>
         </div>
     </section>
 
     <section class="destination-page">
              <!-- Destination page -->
-        <Div class="destination-list" id="destinationPage">
+        <Div class="destination-list d-flex justify-content-xl-center flex-column" id="destinationPage">
             <h1 class="desti">
-                DESTINATIONS
+                DESTINATIONS YOU CAN GO
             </h1>
-            <div class="destination-box">
-                <div class="destination-names des-image1">
+            <div class="destination-box d-xl-flex justify-content-evenly">
+                <div class="destination-names des-image1 d-lg-flex">
                     <div class="destination-content "> 
                     <H1 class="destinationContentHead">USA
                     </H1>
@@ -85,7 +85,7 @@
 
                 <div class="destination-names des-image3">
                     <div class="destination-content"> 
-                    <H1 class="destination-content-head">ASIA
+                    <H1 class="destinationContentHead">ASIA
                     </H1>
                         <div class="destination-items">PHILIPPINES</div>
                         <div class="destination-items">THAILAND</div>
@@ -100,32 +100,32 @@
 
     <section class="service-pages">
               <!-- Services cards -->
-              <div class="service-page" id="srvcPage">
+              <div class="service-page d-flex" id="srvcPage">
                 <h1 class="serve">SERVICES</h1>
-                <div class="service-container">
-                    <div class="card-box">
+                <div class="service-container d-flex flex-column">
+                    <div class="cardBox d-flex">
                         <div class="card-image1 card-image"></div>
                             <div class="card-content">
                                 <span class="card-title">
-                                    Destination Expertise
+                                    Travel Insurance
                                 </span>
                                 <p>
-                                 Our knowledgeable travel experts have extensive experience and firsthand knowledge of various destinations worldwide. From bustling cities to serene countryside, we will guide you in choosing the perfect location for your next adventure.Trust their expertise to help you create a memorable travel experience.
+                                    Your safety and well-being are paramount to us. We provide access to comprehensive travel insurance options to protect you from unforeseen events and provide peace of mind throughout your journey.
                                 </p>
                             </div>
                     </div>
-                    <div class="card-box">
+                      <div class="cardBox d-flex">
                         <div class="card-image2 card-image"></div>
                         <div class="card-content">
                             <span class="card-title">
-                                Personalized Itineraries
+                                Visa and Documentation Assistance
                             </span>
                             <p>
-                                We understand that every traveler has different interests and preferences. That's why we take the time to understand your needs and create personalized itineraries that suit your specific requirements. Whether you prefer a leisurely pace or an action-packed adventure, we'll design a trip that exceeds your expectations.
+                                Navigating visa requirements and paperwork can be complex. Our team can guide you through the process, ensuring you have all the necessary documentation to travel smoothly.
                             </p>
                         </div>
                     </div>
-                    <div class="card-box">
+                    <div class="cardBox d-flex">
                         <div class="card-image3 card-image"></div>
                             <div class="card-content">
                                 <span class="card-title">
@@ -136,7 +136,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="card-box">
+                        <div class="cardBox d-flex">
                             <div class="card-image4 card-image"></div>
                                 <div class="card-content">
                                 <span class="card-title">
@@ -147,10 +147,10 @@
                                 </p>
                             </div>
                         </div>
-                </div>
+            </div>
             <div class="service-footer">
                 <P class="service-footer-content">
-                    At our Travel Agency, we are committed to transparency and ensuring that our clients are well-informed about the services we provide.Should you have any questions or require additional information about our services, please don't hesitate to reach out to our friendly team. We are excited to help you plan the trip of a lifetime!
+                   
                 </P>
             </div>
         </div>
@@ -374,25 +374,75 @@
                 <h1 class="about-title">About Us</h1>
                 <div class="about-container">
                     <div class="about-statements">
-                        <div class="akoa-container">
-                            <div class="akoa-pic"></div>
-                            <div class="akoa-content">
-                                <h1 class="akoa-name">Jomar Brizuela</h1>
-                                <p class="akoa-desciption"> Have few knowledge in various programming languages, such as HTML, CSS, JavaScript, and PHP. He is well-versed in using popular web development frameworks and content management systems, allowing him to deliver efficient and dynamic websites that are easily maintainable.</p>
-                            </div>
-                        </div>
                         <div class="history-container">
                         <h1 class="history-title"> BUDGET TRAVEL AGENCY</h1>
                         <h1 class="history-statements"> Budget Travel Agency have continued to evolve and diversify their offerings. They cater not only to students and young travelers but to a wider demographic seeking economical travel options. Moreover, budget travel agencies have expanded their services to include accommodation, transportation, tours, and other travel-related services, making it more convenient for travelers to plan their trips on a budget.
                             Additionally, the rise of social media and influencer marketing has also played a role in promoting budget travel destinations and tips, encouraging more people to explore the world affordably.
                             Overall, budget travel agencies have played a crucial role in democratizing travel, making it accessible to a broader range of people and fostering a culture of exploring the world without breaking the bank.</h1>
                         </div>
+                        <div class="akoa-container">
+                            <div class="akoa-pic"></div>
+                            <div class="akoa-content">
+                                <h1 class="akoa-name">Personalized Itineraries</h1>
+                                <p class="akoa-desciption">Our experienced travel agents craft tailor-made itineraries to match your unique preferences, interests, and budget, ensuring a trip that feels truly yours. </p>
+                                <h1 class="akoa-name">Stress-Free Planning</h1>
+                                <p class="akoa-desciption">Leave the logistics to us! We take care of flight reservations, accommodation, transportation, and more, so you can focus on enjoying your trip without the hassle. </p>
+                                <h1 class="akoa-name">24/7 Support</h1>
+                                <p class="akoa-desciption">Travel with confidence knowing that our dedicated team is available round-the-clock to assist you, address any concerns, and provide support, no matter where you are in the world. </p>
+                            </div>
+                        </div>
                     </div>
                 </div> 
             </div>
     </section>
-
-    <footer class="contact-us" id="contact-us">
+    <section class="contactUsForm d-flex justify-content-evenly" id="contact-us">
+            <div class="contactContainer d-flex flex-column">
+                <h1 class="contactTitle">Contact Us</h1>
+                <p> Please fill out the form for us to contact you</p>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputFname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputLname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                      </div>
+                    <div class="col-md-12">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">SEND</button>
+                    </div>
+                  </form>
+            </div>
+    </section>
+    <footer class="contact-us">
             <div class="contact-container">
                 <div class="contact-address contact">
                     <h2 class="contact-head">Contact Address</h2>
@@ -412,7 +462,7 @@
                 </div>
                 <div class="contact-partner contact">
                     <h2 class="contact-head">Partners</h2>
-                    <div class="partner-container">
+                    <div class="partner-container d-flex">
                     <h6><i class="fa-brands fa-cc-visa"></i></h6>
                     <h6><i class="fa-brands fa-cc-mastercard"></i></h6>
                     <h6 class="partner1"></h6>
